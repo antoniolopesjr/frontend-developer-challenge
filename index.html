@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang=”pt-br”>
+
+<head>
+    <title>Challenge Linx - Antonio Lopes</title>
+
+    <meta name="description" content="Tela de produtos" />
+    <meta name="keywords" content="produtos, API, challenge, linx, frontend" />
+    <meta name="author" content="Antonio Lopes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Arqs Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- CSS styles and Bootstrap -->
+    <link rel="stylesheet" href="https://getbootstrap.com.br/docs/4.1/dist/css/bootstrap.min.css">
+
+    <link href="aos.css" rel='stylesheet' type='text/css'>
+    <link href="style.css" rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <header class="jumbotron text-center bg-first-div">
+        <div class="container-fluid">
+            <h1 class="header-title" data-aos="zoom-in" data-aos-once="true" data-aos-delay="50">uma
+                seleção de produtos</h1>
+            <h1 class="header-subtitle" data-aos="zoom-in" data-aos-once="true" data-aos-delay="100">especial para você
+            </h1>
+            <p class="header-subtitle2" data-aos="zoom-in" data-aos-once="true" data-aos-delay="150">
+                Todos
+                os produtos desta lista foram selecionados a partir da
+                sua navegação.
+                Aproveite!
+            </p>
+            <p class="header-buttons">
+                <a href="https://linx.com.br" target="_blank" class="btn btn-secondary btn-header my-2"
+                    data-aos="zoom-in" data-aos-once="true" data-aos-delay="200">Conheça a Linx</a>
+                <a href="https://github.com/antoniolopesjr/frontend-developer-challenge" target="_blank"
+                    class="btn btn-secondary btn-header my-2" data-aos="zoom-in" data-aos-once="true"
+                    data-aos-delay="250">Ajude o
+                    algoritmo</a>
+                <a href="#produtos" class="btn btn-secondary btn-header my-2" data-aos="zoom-in" data-aos-once="true"
+                    data-aos-delay="300">Seus produtos</a>
+                <a href="#share-content" class="btn btn-secondary btn-header my-2" data-aos="zoom-in"
+                    data-aos-once="true" data-aos-delay="350">Compartilhe</a>
+            </p>
+        </div>
+    </header>
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <p>Sua seleção especial!</p>
+    </div>
+
+    <section id="produtos" class="container-fluid mt-4 text-center">
+        <div class="row area-item">
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="150"
+                        data-aos-offset="-100">
+                        <img id="img1" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="nomeprod1" class="card-title text-left"></h5>
+                        <p id="descprod1" class="card-text  text-left"></p>
+                        <h1 id="precovelho1" class="card-title pricing-card-title text-left">
+                        </h1>
+                        <h1 id="precoreal1" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700"></h1>
+                        <h1 id="precoparcelado1" class="card-title pricing-card-title text-left"></h1>
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="250"
+                        data-aos-offset="-100">
+                        <img id="img2" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="nomeprod2" class="card-title text-left"></h5>
+                        <p id="descprod2" class="card-text  text-left"></p>
+                        <h1 id="precovelho2" class="card-title pricing-card-title text-left">
+                        </h1>
+                        <h1 id="precoreal2" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700">
+                        </h1>
+                        <h1 id="precoparcelado2" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="350"
+                        data-aos-offset="-100">
+                        <img id="img3" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="nomeprod3" class="card-title text-left"></h5>
+                        <p id="descprod3" class="card-text  text-left"></p>
+                        <h1 id="precovelho3" class="card-title pricing-card-title text-left">
+                        </h1>
+                        <h1 id="precoreal3" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700">
+                        </h1>
+                        <h1 id="precoparcelado3" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="450"
+                        data-aos-offset="-100">
+                        <img id="img4" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="nomeprod4" class="card-title text-left"></h5>
+                        <p id="descprod4" class="card-text  text-left"></p>
+                        <h1 id="precovelho4" class="card-title pricing-card-title text-left">
+                        </h1>
+                        <h1 id="precoreal4" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700">
+                        </h1>
+                        <h1 id="precoparcelado4" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row area-item">
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="150">
+                        <img id="img5" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="nomeprod5" class="card-title text-left"></h5>
+                        <p id="descprod5" class="card-text  text-left"></p>
+                        <h1 id="precovelho5" class="card-title pricing-card-title text-left">
+                        </h1>
+                        <h1 id="precoreal5" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700">
+                        </h1>
+                        <h1 id="precoparcelado5" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="250">
+                        <img id="img6" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="nomeprod6" class="card-title text-left"></h5>
+                        <p id="descprod6" class="card-text  text-left"></p>
+                        <h1 id="precovelho6" class="card-title pricing-card-title text-left">
+                        </h1>
+                        <h1 id="precoreal6" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700">
+                        </h1>
+                        <h1 id="precoparcelado6" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="350">
+                        <img id="img7" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="nomeprod7" class="card-title text-left"></h5>
+                        <p id="descprod7" class="card-text  text-left"></p>
+                        <h1 id="precovelho7" class="card-title pricing-card-title text-left">
+                        </h1>
+                        <h1 id="precoreal7" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700">
+                        </h1>
+                        <h1 id="precoparcelado7" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="450">
+                        <img id="img8" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="nomeprod8" class="card-title text-left"></h5>
+                        <p id="descprod8" class="card-text  text-left"></p>
+                        <h1 id="precovelho8" class="card-title pricing-card-title text-left">
+                        </h1>
+                        <h1 id="precoreal8" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700">
+                        </h1>
+                        <h1 id="precoparcelado8" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
+        <button class="btn btn-secondary my-2 someBotao" style="width: 260px" onclick="mostrarMaisProdutos()">Ainda mais
+            produtos aqui!</button>
+    </div>
+
+    <section class="mais-produtos container-fluid mt-4 text-center" data-aos="fade-up" data-aos-once="true">
+        <div class="row area-item">
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
+                        <img id="maisimg1" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="maisnomeprod1" class="card-title text-left"></h5>
+                        <p id="maisdescprod1" class="card-text  text-left"></p>
+                        <h1 id="maisprecovelho1" class="card-title pricing-card-title text-left"></h1>
+                        <h1 id="maisprecoreal1" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700"></h1>
+                        <h1 id="maisprecoparcelado1" class="card-title pricing-card-title text-left"></h1>
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="150">
+                        <img id="maisimg2" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="maisnomeprod2" class="card-title text-left"></h5>
+                        <p id="maisdescprod2" class="card-text  text-left"></p>
+                        <h1 id="maisprecovelho2" class="card-title pricing-card-title text-left"></h1>
+                        <h1 id="maisprecoreal2" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700"></h1>
+                        <h1 id="maisprecoparcelado2" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
+                        <img id="maisimg3" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="maisnomeprod3" class="card-title text-left"></h5>
+                        <p id="maisdescprod3" class="card-text  text-left"></p>
+                        <h1 id="maisprecovelho3" class="card-title pricing-card-title text-left"></h1>
+                        <h1 id="maisprecoreal3" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700"></h1>
+                        <h1 id="maisprecoparcelado3" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="250">
+                        <img id="maisimg4" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="maisnomeprod4" class="card-title text-left"></h5>
+                        <p id="maisdescprod4" class="card-text  text-left"></p>
+                        <h1 id="maisprecovelho4" class="card-title pricing-card-title text-left"></h1>
+                        <h1 id="maisprecoreal4" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700"></h1>
+                        <h1 id="maisprecoparcelado4" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row area-item">
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
+                        <img id="maisimg5" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="maisnomeprod5" class="card-title text-left"></h5>
+                        <p id="maisdescprod5" class="card-text  text-left"></p>
+                        <h1 id="maisprecovelho5" class="card-title pricing-card-title text-left"></h1>
+                        <h1 id="maisprecoreal5" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700"></h1>
+                        <h1 id="maisprecoparcelado5" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="350">
+                        <img id="maisimg6" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="maisnomeprod6" class="card-title text-left"></h5>
+                        <p id="maisdescprod6" class="card-text  text-left"></p>
+                        <h1 id="maisprecovelho6" class="card-title pricing-card-title text-left"></h1>
+                        <h1 id="maisprecoreal6" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700"></h1>
+                        <h1 id="maisprecoparcelado6" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
+                        <img id="maisimg7" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="maisnomeprod7" class="card-title text-left"></h5>
+                        <p id="maisdescprod7" class="card-text  text-left"></p>
+                        <h1 id="maisprecovelho7" class="card-title pricing-card-title text-left"></h1>
+                        <h1 id="maisprecoreal7" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700"></h1>
+                        <h1 id="maisprecoparcelado7" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+                <div class="card mb-4 card-margin">
+                    <div class="card-body" data-aos="fade-up" data-aos-once="true" data-aos-delay="450">
+                        <img id="maisimg8" class="card-img-top" src="" data-holder-rendered="true">
+                        <h5 id="maisnomeprod8" class="card-title text-left"></h5>
+                        <p id="maisdescprod8" class="card-text  text-left"></p>
+                        <h1 id="maisprecovelho8" class="card-title pricing-card-title text-left"></h1>
+                        <h1 id="maisprecoreal8" class="card-title pricing-card-title text-left"
+                            style="font-size: 1.2rem; font-weight: 700"></h1>
+                        <h1 id="maisprecoparcelado8" class="card-title pricing-card-title text-left"></h1>
+
+                        <button type="button" class="btn btn-secondary btn-buy my-2">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <hr>
+    </section>
+
+    <div class="container-fluid" style="margin-top: 6rem;">
+
+        <div class="row">
+
+            <div id="share-content" class="col-xl-8 offset-xl-2 py-5" data-aos="fade-up" data-aos-once="true"
+                data-aos-delay="100">
+
+                <h1 class="text-center" style="font-size: 18px;font-weight: bold;color: #888888; margin-bottom: 3rem;">
+                    Compartilhe a novidade
+                </h1>
+
+                <p class="text-center" style="font-size: 1.2rem; font-weight: 700;color: #888888;margin-bottom: 3rem;">
+                    Quer que seus amigos
+                    também ganhem a lista personalizada deles? Preencha agora!</p>
+
+                <form accept-charset="utf-8">
+
+                    <div class="row" style="color: #888888; font-size: 14px;">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Nome do seu amigo:</label>
+                                <input type="text" class="form-control" required="required">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email" style="text-align: left;">E-mail:</label>
+                                <input type="email" class="form-control" required="required">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row justify-content-center" style="margin-top: 2rem;">
+                        <button class="btn btn-secondary my-2" style="width: 260px">Enviar agora</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="products-footer">
+        <p>Desenvolvido por Antonio Lopes em HTML, CSS e JS.</p>
+        <p>Linx Impulse - Challenge</p>
+        <p>2019</p>
+    </footer>
+
+    <script src="https://getbootstrap.com.br/docs/4.1/assets/js/vendor/popper.min.js" type="text/javascript"></script>
+    <script src="https://getbootstrap.com.br/docs/4.1/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://getbootstrap.com.br/docs/4.1/assets/js/vendor/holder.min.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+    <script src="moreproducts.js" type="text/javascript"></script>
+
+    <script src="js/aos.js" type="text/javascript"></script>
+
+    <script>
+        AOS.init({
+            easing: 'slide',
+            duration: 500
+        });
+    </script>
+
+
+</body>
+
+</html>
