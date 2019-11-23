@@ -1,0 +1,220 @@
+body {
+    font-family: Helvetica;
+    letter-spacing: 0;
+    max-width: 100%;
+}
+
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.header-subtitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.header-buttons {
+    font-size: 14px;
+}
+
+.card-margin {
+    width: 100%;
+}
+
+.header-subtitle2 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+/*@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+}*/
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.container-fluid {
+    margin: 0 auto;
+}
+
+.area-item {
+    margin-left: 0rem;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .area-item {
+        margin-left: 1.5rem;
+    }
+}
+
+.mais-produtos {
+    display: none;
+}
+
+.mais-produtos.show {
+    display: block;
+}
+
+.someBotao {
+    display: block;
+}
+
+.someBotao.some {
+    display: none;
+}
+
+.btn-secondary {
+    color: #888888;
+    top: 230px;
+    left: 371px;
+    width: 160px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 4px rgba(46, 41, 51, 0.08), 0px 4px 8px rgba(71, 63, 79, 0.16);
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    padding: 5px 5px 5px;
+    padding-top: 7px;
+    transition: all 0.3s ease;
+}
+
+.btn-header {
+    color: #888888;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 4px rgba(46, 41, 51, 0.08), 0px 4px 8px rgba(71, 63, 79, 0.16);
+    margin: 10px 25px 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-header:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.col-sm-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.btn-buy {
+    width: 100%;
+}
+
+.bg-first-div {
+    background: #707070 0% 0% no-repeat padding-box;
+}
+
+.products-footer {
+    background: #707070 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    padding: 2.5rem 0;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.products-footer p:last-child {
+    margin-bottom: 0;
+}
+
+.card {
+    border-color: transparent;
+}
+
+.card-img-top {
+    height: 10rem;
+    width: 100%;
+    border: 1px solid #707070;
+    box-shadow: 0px 2px 4px rgba(46, 41, 51, 0.08), 0px 4px 8px rgba(71, 63, 79, 0.16);
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.pricing-header {
+    font-size: 18px;
+    color: #888888;
+    font-weight: bold;
+}
+
+.card-body{
+    background-color: transparent;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    transition: all 0.3s ease;
+}
+
+.card-body:hover{
+    box-shadow: 0px 2px 4px rgba(46,41,51,0.08), 0px 4px 8px rgba(71,63,79,0.16);
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-body h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #888;
+    text-align: left;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #888;
+    text-align: left;
+}
+
+.card-body h1 {
+    font-size: 14px;
+    color: #888;
+    text-align: left;
+}
