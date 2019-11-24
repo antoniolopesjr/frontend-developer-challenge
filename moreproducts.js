@@ -232,7 +232,7 @@ $(function () {
                 document.getElementById("maisdescprod7").innerHTML = jsonMaisdesc7;
 
                 jsonMaisdesc8 = data.products[0].description;
-                document.getElementById("maisdescprod8").innerHTML = jsonMaisdesc8;
+                document.getElementById("maisdescprod8").innerHTML = jsonMaisdesc8; 
             }
         },
         error: function (xhr, status, error) {
