@@ -7,3 +7,5 @@ O codigo foi desenvolvido utilizando HTML, CSS e Javascript. A responsividade da
 a Lib Jquery tambem foi utilizada.
 
 
+# Live preview - > https://frontend-developer-challenge-2.now.sh/
+# ou https://antoniolopesjr.github.io/
