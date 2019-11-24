@@ -192,14 +192,6 @@ $(function () {
                 document.getElementById("descprod8").innerHTML = jsondesc8;
             }
 
-            //output += "</ul>";
-
-            // Output the data to the "artistList" element
-            //document.getElementById("jsonteste").innerHTML = output;
-
-            // Load the above function when the window loads
-            //window.onload = displayArtists;
-
         },
         error: function (xhr, status, error) {
             //$("#json").html("Error: " + status + " " + error);
